@@ -92,5 +92,5 @@ We train the linear classifier using the BCE loss and $\bar\Delta_Z$ with the hi
 
 We set the luminosity to $\mathcal{L}=3000$ fb$^{-1}$. 
 
-[Case 1 - Decision Boundaries](https://github.com/Jai2500/Z-Score-Loss/blob/main/images/dec-bound-case1.png)
-[Case 2 - Decision Boundaries](https://github.com/Jai2500/Z-Score-Loss/blob/main/images/dec-bound-case2.png)
+![Case 1 - Decision Boundaries](https://github.com/Jai2500/Z-Score-Loss/blob/main/images/dec-bound-case1.png)
+![Case 2 - Decision Boundaries](https://github.com/Jai2500/Z-Score-Loss/blob/main/images/dec-bound-case2.png)
