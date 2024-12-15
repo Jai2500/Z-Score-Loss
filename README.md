@@ -12,7 +12,7 @@
 
 <sup>2</sup> Indian Institute of Science Education and Research, Thiruvananthapuram, Kerala, IN.
 
-(Accepted to Machine Learning for Physical Sciences [ML4PS] workshop in NeurIPS 2024)
+*(Accepted to Machine Learning for Physical Sciences [ML4PS] workshop in NeurIPS 2024)*
 
 </div>
 
