@@ -116,6 +116,22 @@ Lower Panel: Class efficiencies vs. $u$ when trained with the $\bar{\Delta}_Z$ l
 
 For the scans presented above, we demand $\varepsilon(u)\geq 0.05$ and the number of background events beyond the threshold to be at least $5$. Similar plots are obtained for Case 2 also. From the figure, we see that $\bar\Delta_z$ maximises the $Z$ score for a higher signal efficiency than the BCE, i.e., where the estimated $Z$ score peaks, the model retains more signal events than the BCE-trained model. (For the $\bar\Delta_z$ model, the estimated $Z$ score drops for high values of $u$ because there, for the datasets we consider, the major background is almost eliminated and further shifting the decision boundary reduces the minor background slower than the signal).
 
+### ROC curves
+
+We plot the ROC curves for experiments for Case 1. Case 2 gives similar results. Let $N_{B1}, N_{B2}$ represent the total number of $b1$ and $b2$ events generated in the dataset. Let $n_{b1}, n_{b2}$ represent the number of $b1$ and $b2$ events remaining after the threshold respectively. Let $\sigma_{b1}, \sigma_{b2}$ represent the cross sections of process $b1$ and $b2$ respectively. The total background efficiency is given by,
+
+$$\frac{n_{b1} + n_{b2}}{N_{b1} + N_{b2}}$$
+
+and the true background efficiency is given by,
+
+$$\frac{\left(\frac{n_{b1}}{N_{b1}}\right) \sigma_{b1} + \left(\frac{n_{b2}}{N_{b2}}\right) \sigma_{b2}}{\sigma_{b1} + \sigma_{b2}}.$$
+
+![ROC Curve for dataset (total) background efficiency vs signal efficiency.](https://github.com/Jai2500/Z-Score-Loss/blob/main/images/epsSig-vs-epsBG.png)
+
+![ROC Curve for true background efficiency vs signal efficiency.]((https://github.com/Jai2500/Z-Score-Loss/blob/main/images/epsSig-vs-weightedBGeff.png))
+
+The true background efficiency differs from the total background efficiency in that it accounts for the cross sections of the background processes. ROC curves show that $\Bar{\Delta}_Z(y, \Tilde{y})$ performs better when we consider the true background distribution (i.e., accounting for the cross sections).
+
 ## Limitations, Scope
 While our results are promising, further tests are needed to fully characterise and understand the benefits and limitations of $\bar \Delta_Z$.  Here, our choice of using a linear classifier on simple datasets was motivated by its simplicity and interpretability. However, for realistic characterisations, one has to look beyond the linear classifier (e.g., use a deep neural network) and consider a range of benchmark (new-physics) scenarios with different kinematics (features). For example, there could be multiple (more than two) major backgrounds with highly overlapping features or the signal size could be much smaller than the backgrounds (more than what we considered, as is the case in some heavy particle searches). 
 
