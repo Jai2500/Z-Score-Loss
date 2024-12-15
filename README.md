@@ -34,8 +34,11 @@ We look for a smooth submodular function. A submodular function is a function th
 #### Definition: Submodularity
 
 A set function $\Delta: \{0, 1\}^p \to \mathbb{R}$ is submodular if for all sets $A, B \in \{0, 1\}^p$
+
 $$\Delta(A) + \Delta(B) \geq \Delta(A \cup B) + \Delta (A \cap B),$$
+
 or equivalently $B \subseteq A$ and $i \notin A, i \notin B$,
+
 $$\Delta(A \cup \{i\}) - \Delta(A) \leq \Delta(B \cup \{i\}) - \Delta(B).$$
 
 The submodular functions can be optimised using greedy optimisation techniques, and it is to find optimal solutions in polynomial times. However, these discrete optimisation techniques cannot be used directly without a gradient. 
@@ -60,6 +63,7 @@ Additionally, the Lovàsz extension of a submodular function preserves submodula
 We propose the following set function, a surrogate to the $Z$ score and very similar in form, as the pre-cursor to the loss construction:
 
 $$\Delta_Z(y, \tilde{y}) = \sum_{i \in S} \frac{\sigma_i \mathcal{L}}{\sqrt{\epsilon}} - \frac{\sum_{i \in S} \frac{v_i - n_i}{v_i} \sigma_i \mathcal{L}}{\sqrt{ \epsilon + \sum_{i \in B} \frac{p_i}{v_i} \sigma_i \mathcal{L}}},$$
+
 where,
 * $y$ $(\tilde{y})$ $\to$ ground-truth (predicted) label
 * $\nu_i$ $\to$ number of events of process type $i$ ($i\in S \cup B$)
