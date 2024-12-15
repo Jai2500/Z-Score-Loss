@@ -95,9 +95,9 @@ We set the luminosity to $\mathcal{L}=3000$ fb$^{-1}$.
 ![Case 1 - Decision Boundaries](https://github.com/Jai2500/Z-Score-Loss/blob/main/images/dec-bound-case1.png)
 ![Case 2 - Decision Boundaries](https://github.com/Jai2500/Z-Score-Loss/blob/main/images/dec-bound-case2.png)
 -->
-
+<p align="center">
 <img src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/dec-bound-case1.png" width="500"> <img src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/dec-bound-case2.png" width="500">
-
+</p>
 
 Left Panel: Decision boundaries for Case 1; Right Panel: Decision boundaries for Case 2.
 
@@ -139,7 +139,9 @@ and the true background efficiency is given by,
 
 $$\frac{\left(\frac{n_{b1}}{N_{b1}}\right) \sigma_{b1} + \left(\frac{n_{b2}}{N_{b2}}\right) \sigma_{b2}}{\sigma_{b1} + \sigma_{b2}}.$$
 
+<p align="center">
 <img src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/epsSig-vs-epsBG.png" width="500"> <img src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/epsSig-vs-weightedBGeff.png" width="500">
+</p>
 
 Left panel: ROC Curve for dataset (total) background efficiency vs signal efficiency; Right panel: ROC Curve for true background efficiency vs signal efficiency.
 <!---
