@@ -94,6 +94,9 @@ We set the luminosity to $\mathcal{L}=3000$ fb$^{-1}$.
 ![Case 1 - Decision Boundaries](https://github.com/Jai2500/Z-Score-Loss/blob/main/images/dec-bound-case1.png)
 ![Case 2 - Decision Boundaries](https://github.com/Jai2500/Z-Score-Loss/blob/main/images/dec-bound-case2.png)
 
+<img src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/dec-bound-case1.png" width="200">
+<img src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/dec-bound-case2.png" width="200">
+
 Upper Panel: Case 1 - Decision boundaries for Case 1; Lower Panel: Case 2 - Decision boundaries for Case 2.
 
 Feature distributions are the same for both cases; the cases differ in the scattering rates of the processes considered.
