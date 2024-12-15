@@ -130,7 +130,7 @@ $$\frac{\left(\frac{n_{b1}}{N_{b1}}\right) \sigma_{b1} + \left(\frac{n_{b2}}{N_{
 
 ![ROC Curve for true background efficiency vs signal efficiency.](https://github.com/Jai2500/Z-Score-Loss/blob/main/images/epsSig-vs-weightedBGeff.png)
 
-The true background efficiency differs from the total background efficiency in that it accounts for the cross sections of the background processes. ROC curves show that $\Bar{\Delta}_Z(y, \Tilde{y})$ performs better when we consider the true background distribution (i.e., accounting for the cross sections).
+The true background efficiency differs from the total background efficiency in that it accounts for the cross sections of the background processes. ROC curves show that $\bar{\Delta}_Z(y, \tilde{y})$ performs better when we consider the true background distribution (i.e., accounting for the cross sections).
 
 ## Limitations, Scope
 While our results are promising, further tests are needed to fully characterise and understand the benefits and limitations of $\bar \Delta_Z$.  Here, our choice of using a linear classifier on simple datasets was motivated by its simplicity and interpretability. However, for realistic characterisations, one has to look beyond the linear classifier (e.g., use a deep neural network) and consider a range of benchmark (new-physics) scenarios with different kinematics (features). For example, there could be multiple (more than two) major backgrounds with highly overlapping features or the signal size could be much smaller than the backgrounds (more than what we considered, as is the case in some heavy particle searches). 
