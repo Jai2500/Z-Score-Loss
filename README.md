@@ -100,3 +100,18 @@ Upper Panel: Case 1 - Decision boundaries for Case 1; Lower Panel: Case 2 - Deci
 Feature distributions are the same for both cases; the cases differ in the scattering rates of the processes considered.
 
 The classifier trained with $\Delta_Z (y, \tilde{y})$ decision boundaries are scattering cross-section dependant compared to one trained with a BCE, as you can see from the figures above.  As $\bar\Delta_Z$ is designed to optimise the $Z$ score, eliminating more events from the larger background gives better significance scores. 
+
+## Classification Metrics
+![$Z$ score vs. linear model threshold](https://github.com/Jai2500/Z-Score-Loss/blob/main/images/Z-vs-thresh.png)
+
+![$Z$ score vs. efficiency of signal events](https://github.com/Jai2500/Z-Score-Loss/blob/main/images/Z-vs-epsSig.png)
+
+![Efficiency vs. linear model threshold](https://github.com/Jai2500/Z-Score-Loss/blob/main/images/eps-vs-thres.png)
+
+Upper Panel: The estimated $Z$ score for the entire range of the linear model threshold, $u$. 
+
+Middle Panel: The distribution of the $Z$ score with signal efficiency, the fraction of signal events retained. Both quantities are functions of $u$. The model trained with $\bar{\Delta}_Z$ reaches the maximum $Z$ score for higher values of signal efficiency than that with the BCE loss. 
+
+Lower Panel: Class efficiencies vs. $u$ when trained with the $\bar{\Delta}_Z$ loss with the hinge error. With increasing $u$, the larger background is eliminated first. For very high $u$ the drop in the subdominant background is less steeper than the signal, leading to the drop in $Z(u)$ in (a) for higher thresholds.
+
+For the scans presented above, we demand $\varepsilon(u)\geq 0.05$ and the number of background events beyond the threshold to be at least $5$. Similar plots are obtained for Case 2 also. From the figure, we see that $\bar\Delta_z$ maximises the $Z$ score for a higher signal efficiency than the BCE, i.e., where the estimated $Z$ score peaks, the model retains more signal events than the BCE-trained model. (For the $\bar\Delta_z$ model, the estimated $Z$ score drops for high values of $u$ because there, for the datasets we consider, the major background is almost eliminated and further shifting the decision boundary reduces the minor background slower than the signal).
