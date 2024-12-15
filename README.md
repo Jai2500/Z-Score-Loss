@@ -8,11 +8,11 @@
         
 [Jai Bardhan](https://jaibardhan.com/)<sup>1</sup> , [Cyrin Neeraj](https://inspirehep.net/authors/1904817)<sup>1</sup>, [Subhadip Mitra](https://sites.google.com/site/subhadipmitra/)<sup>1</sup>, [Tanumoy Mandal](https://scholar.google.co.in/citations?user=IwMWofEAAAAJ&hl=en)<sup>2</sup>   
 
+*(Accepted to Machine Learning for Physical Sciences workshop in NeurIPS 2024)*
+
 <sup>1</sup> International Institute of Information Technology, Hyderabad, Telangana, IN.
 
 <sup>2</sup> Indian Institute of Science Education and Research, Thiruvananthapuram, Kerala, IN.
-
-*(Accepted to Machine Learning for Physical Sciences workshop in NeurIPS 2024)*
 
 </div>
 
