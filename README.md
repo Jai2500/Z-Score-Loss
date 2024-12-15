@@ -1,4 +1,4 @@
-# Repository for "Loss function to optimise signal significance in particle physics"
+# $\bar{\Delta_Z}$ : A novel loss for event classification in particle physics searches. 
 
 ## We will be releasing the code late December; apologies for the delay. 
 
