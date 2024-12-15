@@ -1,6 +1,6 @@
 # Repository for "Loss function to optimise signal significance in particle physics"
 
-## Please wait until the NeurIPS Workshop date (15th December) for the public release of the code and package. 
+## We will be releasing the code late December; apologies for the delay. 
 
 # Loss function to optimise signal significance in particle physics
 
