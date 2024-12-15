@@ -41,11 +41,14 @@ $$\Delta(A \cup \{i\}) - \Delta(A) \leq \Delta(B \cup \{i\}) - \Delta(B).$$
 The submodular functions can be optimised using greedy optimisation techniques, and it is to find optimal solutions in polynomial times. However, these discrete optimisation techniques cannot be used directly without a gradient. 
 
 The Lovàsz extension allows us to associate a continuous, convex function with any submodular function. 
+
 #### Definition: Lovàsz extension <a name=lovext></a>
 
 For a set function $\Delta: \{0, 1\}^p \to \mathbb{R}$, the Lovàsz extension $\bar{\Delta}: [0, 1]^p \to \mathbb{R}$ is defined as
+
 $$\bar{\Delta}: \mathbf{m} \in \mathbb{R}^p \mapsto%\rightarrowtail 
         \sum_{i=1}^p m_i\ g_i(\mathbf{m})$$
+
 where $\mathbf{m} \in \mathbb{R}^p_+$ is the vector of errors (which we discuss in the next section), $g_i(\mathbf{m}) = \Delta(\{\pi_1, \dots, \pi_i\}) - \Delta(\{\pi_i, \dots, \pi_{i-1}\})$ and $\boldsymbol{\pi}$ is a permutation ordering the components of $\mathbf{m}$ in decreasing order, i.e., $x_{\pi_1} \geq x_{\pi_2} \geq \dots \geq x_{\pi_p}$
 
 For the Lovàsz extension to be applicable, the set function must be submodular.
