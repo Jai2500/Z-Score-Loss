@@ -4,11 +4,11 @@
 
 # Loss function to optimise signal significance in particle physics
 
-<p style="text-align:center" margin: auto>
+<div align="center">
         
 [Jai Bardhan](https://jaibardhan.com/)<sup>1</sup> , [Cyrin Neeraj](https://inspirehep.net/authors/1904817)<sup>1</sup>, [Subhadip Mitra](https://sites.google.com/site/subhadipmitra/)<sup>1</sup>, [Tanumoy Mandal](https://scholar.google.co.in/citations?user=IwMWofEAAAAJ&hl=en)<sup>2</sup>   
 
-</p>
+</div>
 
 <sup>1</sup> International Institute of Information Technology, Hyderabad, Telangana, IN.
 
