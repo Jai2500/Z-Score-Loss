@@ -138,10 +138,13 @@ and the true background efficiency is given by,
 
 $$\frac{\left(\frac{n_{b1}}{N_{b1}}\right) \sigma_{b1} + \left(\frac{n_{b2}}{N_{b2}}\right) \sigma_{b2}}{\sigma_{b1} + \sigma_{b2}}.$$
 
+<img src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/epsSig-vs-epsBG.png" width="500"> <img src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/epsSig-vs-weightedBGeff.png" width="500">
+
+<!---
 ![ROC Curve for dataset (total) background efficiency vs signal efficiency.](https://github.com/Jai2500/Z-Score-Loss/blob/main/images/epsSig-vs-epsBG.png)
 
 ![ROC Curve for true background efficiency vs signal efficiency.](https://github.com/Jai2500/Z-Score-Loss/blob/main/images/epsSig-vs-weightedBGeff.png)
-
+-->
 The true background efficiency differs from the total background efficiency in that it accounts for the cross sections of the background processes. ROC curves show that $\bar{\Delta}_Z(y, \tilde{y})$ performs better when we consider the true background distribution (i.e., accounting for the cross sections).
 
 ## Limitations, Scope
