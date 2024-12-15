@@ -8,14 +8,13 @@
         
 [Jai Bardhan](https://jaibardhan.com/)<sup>1</sup> , [Cyrin Neeraj](https://inspirehep.net/authors/1904817)<sup>1</sup>, [Subhadip Mitra](https://sites.google.com/site/subhadipmitra/)<sup>1</sup>, [Tanumoy Mandal](https://scholar.google.co.in/citations?user=IwMWofEAAAAJ&hl=en)<sup>2</sup>   
 
-</div>
-
 <sup>1</sup> International Institute of Information Technology, Hyderabad, Telangana, IN.
 
 <sup>2</sup> Indian Institute of Science Education and Research, Thiruvananthapuram, Kerala, IN.
 
 (Accepted to Machine Learning for Physical Sciences [ML4PS] workshop in NeurIPS 2024)
 
+</div>
 
 At collider experiments at the LHC, beams of high energy particles are collided against one another to search for interesting New Physics phenomena signatures. Due to the rare nature of these NP phenomena, separating them from huge commonplace Standard Model background is a an extremely challenging task. Sophisticated deep learning models are used to separate interesting signal events from that of the SM background using simulated data and then, deployed on real collision data. The signal plus background hypothesis ($H_1$) is tested against the null or background-only hypothesis ($H_0$), and the disagreement between them is expressed in terms of a $p$ value. An equivalent interpretation of the $p$ value is the significance score ($Z$) defined such that a Gaussian-distributed variable found $Z$ standard deviations away from its mean has a tail-distribution probability equal to $p$. Most sensitivity studies commonly use a simple approximation of the median $Z$ score as a measure of the estimated signal significance,
 $$Z \approx N_s/\sqrt{N_b}$$
