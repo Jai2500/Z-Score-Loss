@@ -116,9 +116,12 @@ The classifier trained with $\Delta_Z (y, \tilde{y})$ decision boundaries are sc
 -->
 <img src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/Z-vs-thresh.png" width="500"> <img src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/Z-vs-epsSig.png" width="500">
 
-<div style="text-align: center;">
-<img src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/eps-vs-thres.png" width="500">
-</div>
+<!--- <div style="text-align: center;"> -->
+<img style="display: block; 
+           margin-left: auto;
+           margin-right: auto;
+           width: 30%; "src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/eps-vs-thres.png" width="500">
+<!--- </div> -->
 
 (From top left) First panel: The estimated $Z$ score for the entire range of the linear model threshold, $u$. 
 
