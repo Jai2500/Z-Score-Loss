@@ -94,3 +94,9 @@ We set the luminosity to $\mathcal{L}=3000$ fb$^{-1}$.
 
 ![Case 1 - Decision Boundaries](https://github.com/Jai2500/Z-Score-Loss/blob/main/images/dec-bound-case1.png)
 ![Case 2 - Decision Boundaries](https://github.com/Jai2500/Z-Score-Loss/blob/main/images/dec-bound-case2.png)
+
+Upper Panel: Case 1 - Decision boundaries for Case 1; Lower Panel: Case 2 - Decision boundaries for Case 2.
+
+Feature distributions are the same for both cases; the cases differ in the scattering rates of the processes considered.
+
+The classifier trained with $\Delta_Z (y, \tilde{y})$ decision boundaries are scattering cross-section dependant compared to one trained with a BCE, as you can see from the figures above.  As $\bar\Delta_Z$ is designed to optimise the $Z$ score, eliminating more events from the larger background gives better significance scores. 
