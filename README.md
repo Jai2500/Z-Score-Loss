@@ -99,7 +99,7 @@ We set the luminosity to $\mathcal{L}=3000$ fb$^{-1}$.
 <img src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/dec-bound-case1.png" width="500"> <img src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/dec-bound-case2.png" width="500">
 
 
- Left Panel: Decision boundaries for Case 1; Right Panel: Decision boundaries for Case 2.
+Left Panel: Decision boundaries for Case 1; Right Panel: Decision boundaries for Case 2.
 
 Feature distributions are the same for both cases; the cases differ in the scattering rates of the processes considered.
 
@@ -121,6 +121,7 @@ The classifier trained with $\Delta_Z (y, \tilde{y})$ decision boundaries are sc
            margin-left: auto;
            margin-right: auto;
            width: 30%; "src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/eps-vs-thres.png" width="500">
+</img>
 <!--- </div> -->
 
 (From top left) First panel: The estimated $Z$ score for the entire range of the linear model threshold, $u$. 
