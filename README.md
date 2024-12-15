@@ -120,7 +120,7 @@ The classifier trained with $\Delta_Z (y, \tilde{y})$ decision boundaries are sc
 
 <img src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/eps-vs-thres.png" width="500">
 
-(From top left) First panel: The estimated $Z$ score for the entire range of the linear model threshold, $u$. 
+(From the top) First panel: The estimated $Z$ score for the entire range of the linear model threshold, $u$. 
 
 Second panel: The distribution of the $Z$ score with signal efficiency, the fraction of signal events retained. Both quantities are functions of $u$. The model trained with $\bar{\Delta}_Z$ reaches the maximum $Z$ score for higher values of signal efficiency than that with the BCE loss. 
 
