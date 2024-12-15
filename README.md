@@ -120,7 +120,7 @@ The classifier trained with $\Delta_Z (y, \tilde{y})$ decision boundaries are sc
 <img style="display: block; 
            margin-left: auto;
            margin-right: auto;
-           width: 30%; "src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/eps-vs-thres.png" width="500">
+           width: 30%;" src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/eps-vs-thres.png" width="500">
 </img>
 <!--- </div> -->
 
