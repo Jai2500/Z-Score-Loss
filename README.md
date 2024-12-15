@@ -140,6 +140,7 @@ $$\frac{\left(\frac{n_{b1}}{N_{b1}}\right) \sigma_{b1} + \left(\frac{n_{b2}}{N_{
 
 <img src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/epsSig-vs-epsBG.png" width="500"> <img src="https://github.com/Jai2500/Z-Score-Loss/blob/main/images/epsSig-vs-weightedBGeff.png" width="500">
 
+Left panel: ROC Curve for dataset (total) background efficiency vs signal efficiency; Right panel: ROC Curve for true background efficiency vs signal efficiency.
 <!---
 ![ROC Curve for dataset (total) background efficiency vs signal efficiency.](https://github.com/Jai2500/Z-Score-Loss/blob/main/images/epsSig-vs-epsBG.png)
 
