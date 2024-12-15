@@ -4,7 +4,7 @@
 
 # Loss function to optimise signal significance in particle physics
 
-<p align="center">
+<p style="text-align:center">
         
 [Jai Bardhan](https://jaibardhan.com/)<sup>1</sup> , [Cyrin Neeraj](https://inspirehep.net/authors/1904817)<sup>1</sup>, [Subhadip Mitra](https://sites.google.com/site/subhadipmitra/)<sup>1</sup>, [Tanumoy Mandal](https://scholar.google.co.in/citations?user=IwMWofEAAAAJ&hl=en)<sup>2</sup>   
 
