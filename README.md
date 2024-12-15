@@ -89,7 +89,7 @@ We train the linear classifier using the BCE loss and $\bar\Delta_Z$ with the hi
 * Case 1: $\sigma_{b1} = 1$ fb, $\sigma_{b2} = 100$ fb; $\sigma_{s} = 0.1$ fb.
 * Case 2: $\sigma_{b1} = 100$ fb, $\sigma_{b2} = 1$ fb; $\sigma_{s} = 0.1$ fb.
 
-We set the luminosity to $\mathcal{L}=3000$ fb$^{-1}$. 
+We set the luminosity to $\mathcal{L}=3000$ fb $^{-1}$. 
 <!---
 
 ![Case 1 - Decision Boundaries](https://github.com/Jai2500/Z-Score-Loss/blob/main/images/dec-bound-case1.png)
